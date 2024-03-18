@@ -1,0 +1,247 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.orange{
+  background-color: orange;
+}
+.red{
+  background-color:red ;
+}
+.green{
+  background-color: green;
+}
+.business-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  z-index: 1;
+}
+
+.business-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 20%;
+}
+.business-name {
+  color: rgb(109, 107, 107);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 3px 3px 3px #94d4e6;
+  margin-bottom: 10px;
+  position: relative;
+}
+.business-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: #ffffff; */
+  padding: 20px;
+}
+.business-details {
+ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 20%;
+}
+
+.business-name {
+  color: rgb(109, 107, 107);
+  font-size: 50px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 3px 3px 3px #bb7971;
+  margin-bottom: 10px;
+  position: relative;
+
+}
+
+
+
+
+
+
+.business-header{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+}
+.business-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.business-address,
+.business-phone,
+.business-owner {
+  color: #666;
+  font-size: 25px;
+  margin: 5px 0;
+}
+.business-des{
+  color: #666;
+  font-size: 75%;
+  width: 60%;
+margin-right: 15%;
+}
+
+.business-logo {
+  width: 30%;
+  margin-right: -15%;
+  margin-top: -2%;
+}
+body{
+  background-color: #ffffff;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  margin-right: 60% !important;
+}
+h2{
+  font-size:250px;
+}
+.imgservices{
+  top:250px;
+  width:850px;
+height: 600px;
+}
+#flex-image{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top:250px;
+
+}
+.img{
+  width:25vw;
+  height: auto;
+}
+.service_card{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ 
+}
+.service-name{
+  color: rgb(109, 107, 107);
+  font-size: 30px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 3px 3px 3px #bb7971;
+  margin-bottom: 10px;
+
+}
+#card{
+  width:250px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+.service-admin{
+  margin-top: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+margin-bottom: 10px;
+flex-wrap: wrap;
+}
+.service-user{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+
+flex-wrap: wrap;
+}
+.link{
+  color: rgb(109, 107, 107);
+  font-size: 30px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 130px;;
+height: 45px;
+margin-top: 20px;
+border: 1px rgb(214, 135, 135) solid;
+border-radius: 5%;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+.link:hover{
+    text-shadow: 3px 3px 3px #bb7971;
+    color: rgb(109, 107, 107);
+}
+
+#side{
+ /* margin-top: 300px; */
+ position: fixed;
+ left: 80vw;
+ top:30vw;
+  width: 100%;
+ padding: 20px;
+  display: flex;
+ flex-direction: column;
+}
+.valid{
+  
+}
+.notValid{
+
+  background-color: rgb(245, 223, 223);
+}
+#first{
+  background-color: rgb(245, 223, 223);
+
+}
+.buttonMeeting{
+  margin-top: 60px;
+}
